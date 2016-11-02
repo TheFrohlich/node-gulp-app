@@ -1,0 +1,14 @@
+
+export function ##Component(appName){
+    return component {
+        templateUrl:'./##.component.html',
+        controller:##Component,
+    }
+    angular.module(appName).component('__Component',component);
+};
+
+export interface I##Component{
+
+}
+
+export class 
